@@ -8,15 +8,17 @@ import FavoritesPage from './pages/Favorites';
 function App() {
   return (
   <div>
-      <Route path='/'> 
+    <Routes>
+      <Route exact path='/'> 
         <AllMeetupsPage />
       </Route>
-      <Route path='/new-meetup'>
+      <Route path='/new-meetup' >
         <NewMeetupPage />
       </Route>
       <Route path='/favorites'>
         <FavoritesPage />
       </Route>
+    </Routes>
   </div>
   );
 }
