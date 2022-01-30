@@ -1,7 +1,7 @@
 function NewMeetupPage() {
     return (
         <div>
-            <h1>New Meetup</h1>
+            <h1>New Meatup</h1>
         </div>
     );
 }

@@ -5,7 +5,7 @@ import classes from './MainNavigation.module.css'
 function MainNavigation() {
     return (
         <header className={classes.header}>
-            <div>Meatups</div>
+            <div className={classes.logo}>Meatups</div>
             <nav>
                 <ul>
                     <li>
