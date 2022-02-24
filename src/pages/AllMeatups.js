@@ -1,3 +1,5 @@
+import MeatupList from '../components/meatups/MeatupList';
+
 const DUMMY_DATA = [
     {
         id: 'm1',
@@ -23,11 +25,7 @@ function AllMeetupsPage() {
     return (
         <div>
             <h1>all meatups</h1>
-            <ul>
-                {DUMMY_DATA.map((meetup) => {
-                    return <li key={meetup.id}>{meetup.title}</li>; // key value is necessary for efficient rendering of list. It needs a unique id
-                })}
-            </ul>
+            <MeatupList meatups={DUMMY_DATA} />
         </div>
     );
 }
