@@ -2,4 +2,5 @@
 
 meetup site project to learn react.js
 
-A site where meat lovers meetup to talk about meat.
+A site where meat lovers organise meatups to talk about meat
+
